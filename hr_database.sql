@@ -1,0 +1,4 @@
+CREATE TABLE titles (
+	title_id VARCHAR(30) PRIMARY KEY,
+	title VARCHAR(30) NOT NULL
+);
