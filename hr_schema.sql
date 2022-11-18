@@ -54,9 +54,9 @@ CREATE TABLE salaries (
 	FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
-copy titles from 'C:\Digital_Projects\GitHub\GT\Challenges\sql-challenge\data\titles.csv' with csv HEADER;
-copy employees from 'C:\Digital_Projects\GitHub\GT\Challenges\sql-challenge\data\employees.csv' with csv HEADER;
-copy departments from 'C:\Digital_Projects\GitHub\GT\Challenges\sql-challenge\data\departments.csv' with csv HEADER;
-copy dept_emp (emp_no, dept_no) from 'C:\Digital_Projects\GitHub\GT\Challenges\sql-challenge\data\dept_emp.csv' with csv HEADER;
-copy dept_manager from 'C:\Digital_Projects\GitHub\GT\Challenges\sql-challenge\data\dept_manager.csv' with csv HEADER;
-copy salaries from 'C:\Digital_Projects\GitHub\GT\Challenges\sql-challenge\data\salaries.csv' with csv HEADER;
+copy titles from 'data\titles.csv' with csv HEADER;
+copy employees from 'data\employees.csv' with csv HEADER;
+copy departments from 'data\departments.csv' with csv HEADER;
+copy dept_emp (emp_no, dept_no) from 'data\dept_emp.csv' with csv HEADER;
+copy dept_manager from 'data\dept_manager.csv' with csv HEADER;
+copy salaries from 'data\salaries.csv' with csv HEADER;
